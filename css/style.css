@@ -1,0 +1,107 @@
+.antic-didone-regular {
+    font-family: "Antic Didone", serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+
+.greek-font {
+  font-family: "Advent Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+body{
+    font-family: "Antic Didone", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(94, 94, 94);
+    background-color: #eef1f4;
+}
+
+.caligraph
+{
+    font-size: 2rem;
+    color: rgb(94, 94, 94);
+}
+
+.carusel-img{
+    background-size: cover;
+    background-position: 50% 20%;
+    height: 500px;
+}
+
+h1{
+    font-size: 2.6rem;
+    font-weight: 10;
+    color: rgb(94, 94, 94);
+}
+
+h2{
+    font-size: 1.4rem;
+    font-weight: 20;
+}
+
+.custom-toggler {
+    border: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    width: 25px;
+    height: 25px;
+    background: transparent;
+    position: relative;
+    box-shadow: none;
+  }
+
+  .custom-toggler:focus{
+    outline: none;
+    box-shadow: none;
+  }
+  
+  .toggler-line {
+    position: absolute;
+    left: 0;
+    height: 4px;
+    width: 100%;
+    background-color: rgb(94, 94, 94);
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  .toggler-line.top {
+    top: 0;
+  }
+
+  .toggler-line.middle {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .toggler-line.bottom {
+    bottom: 0;
+  }
+
+  /* Active state */
+  .custom-toggler.open .middle {
+    opacity: 0;
+  }
+
+  .custom-toggler.open .top {
+    transform: rotate(45deg) translateY(-2.6px);
+    top: 50%;
+  }
+  
+  .custom-toggler.open .bottom {
+    transform: rotate(-45deg) translateY(2.6px);
+    bottom: 50%;
+  }
+
+  .block-title{
+    font-size: 2rem;
+  }
+
+  .block-subtitle{
+    font-size: 1.5rem;
+  }
