@@ -1,5 +1,5 @@
 .antic-didone-regular {
-    font-family: "Roboto Flex", "Antic Didone", sans-serif;
+    font-family: "Roboto Flex", "Zen Kurenaido", sans-serif;
     /* font-family: "Antic Didone", serif; */
     text-transform: capitalize;
     font-weight: 400;
@@ -7,7 +7,7 @@
   }  
 
 .greek-font {
-  font-family: "Roboto Flex", "Antic Didone", sans-serif;
+  font-family: "Roboto Flex", "Zen Kurenaido", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
@@ -16,7 +16,7 @@
 
 .greek-font-capitalise
 {
-  font-family: "Roboto Flex", "Antic Didone", sans-serif;
+  font-family: "Roboto Flex", "Zen Kurenaido", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
@@ -25,7 +25,7 @@
 }
 
 body{
-    font-family: "Roboto Flex", "Antic Didone", sans-serif;
+    font-family: "Roboto Flex", "Zen Kurenaido", sans-serif;
     /* font-family: "Antic Didone", serif; */
     text-transform: uppercase;
     font-weight: 400;
